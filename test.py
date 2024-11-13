@@ -2,12 +2,40 @@ from playwright.sync_api import sync_playwright
 from datetime import datetime
 
 
+gov_urls = {
+    "White House": "https://www.whitehouse.gov",
+    "USA": "https://www.usa.gov",
+    "Library of Congress": "https://www.loc.gov",
+    "Department of Defense": "https://www.defense.gov",
+    "US Army": "https://www.army.mil",
+    "US Navy": "https://www.navy.mil",
+    "US Air Force": "https://www.af.mil",
+    "Department of State": "https://www.state.gov",
+    "Department of Justice": "https://www.justice.gov",
+    "Department of Homeland Security": "https://www.dhs.gov",
+    "Department of the Treasury": "https://www.treasury.gov",
+    "Department of Health and Human Services": "https://www.hhs.gov",
+    "Centers for Disease Control and Prevention (CDC)": "https://www.cdc.gov",
+    "Department of Education": "https://www.ed.gov",
+    "Department of Veterans Affairs": "https://www.va.gov",
+    "Environmental Protection Agency": "https://www.epa.gov",
+    "National Institutes of Health": "https://www.nih.gov",
+    "National Science Foundation": "https://www.nsf.gov",
+    "US Geological Survey": "https://www.usgs.gov",
+    "Internal Revenue Service": "https://www.irs.gov",
+    "Federal Reserve": "https://www.federalreserve.gov",
+    "Securities and Exchange Commission": "https://www.sec.gov",
+    "Small Business Administration": "https://www.sba.gov",
+    "Social Security Administration": "https://www.ssa.gov",
+    "Federal Emergency Management Agency": "https://www.fema.gov",
+    "Transportation Security Administration": "https://www.tsa.gov",
+    "US Citizenship and Immigration Services": "https://www.uscis.gov"
+}
+
+
 def generate_markdown_report(sub_pages, url):
-    # Header for the markdown report
     markdown = f"# {url} Sub-Pages\n\n"
     markdown += f"### Below is a list of sub-pages found on [{url.lower()}](https://www.{url.lower()}):\n\n"
-
-    # Add each URL as a markdown list item
     for url in sub_pages:
         markdown += f"1. [{url}]({url})\n"
 
@@ -24,24 +52,25 @@ def navigate_subpages(page, sub_pages):
         page.wait_for_timeout(2000)
 
 
-def create_whitehouse_report():
+def navigate_pages(name: str, url: str):
     with sync_playwright() as p:
-        # Launch a browser instance
-        # Set to True for headless mode
-        browser = p.chromium.launch(headless=False)
-        page = browser.new_page(record_video_dir="recordings/wh/")
-        page.goto("https://www.whitehouse.gov")
-        sub_pages = page.evaluate("""
+        split = url.split('.')
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        # page = browser.new_page(record_video_dir="recordings/")
+        page.goto(url)
+        sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
-                .filter(href => href.includes('whitehouse.gov') && !href.endsWith('#'))
+                .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
         """)
         sub_pages = list(set(sub_pages))
 
-        markdown_report = generate_markdown_report(sub_pages, "WhiteHouse.gov")
+        markdown_report = generate_markdown_report(
+            sub_pages, f"{name.strip(' ')}.gov")
         print(markdown_report)
         today_str = datetime.now().strftime("%d-%m-%Y")
-        filename = f"{today_str}-WhiteHouse_SubPages_Report.md"
+        filename = f"{today_str}-{name.strip(' ')}_SubPages_Report.md"
 
         with open(f"reports/{filename}", "w") as file:
             file.write(markdown_report)
@@ -51,53 +80,10 @@ def create_whitehouse_report():
         page.evaluate("window.scrollTo(0, 0)")
         page.wait_for_timeout(2000)
 
-        navigate_subpages(page, sub_pages)
-
-        # Close the browser
-        browser.close()
-
-
-def create_cdc_report():
-    with sync_playwright() as p:
-        # Launch a browser instance
-        # Set to True for headless mode
-        browser = p.chromium.launch(headless=False)
-        page = browser.new_page(record_video_dir="recordings/cdc/")
-
-        # Go to whitehouse.gov
-        page.goto("https://www.cdc.gov/")
-
-        # Execute JavaScript to collect all sub-page URLs from anchor tags
-        sub_pages = page.evaluate("""
-            Array.from(document.querySelectorAll('a'))
-                .map(anchor => anchor.href)
-                .filter(href => href.includes('cdc.gov') && !href.endsWith('#'))
-        """)
-        sub_pages = list(set(sub_pages))
-
-        markdown_report = generate_markdown_report(sub_pages, "CDC.gov")
-        print(markdown_report)
-        today_str = datetime.now().strftime("%d-%m-%Y")
-        filename = f"{today_str}-CDC_SubPages_Report.md"
-
-        # Save the markdown report to a file with the generated filename
-        with open(f"reports/{filename}", "w") as file:
-            file.write(markdown_report)
-
-        # Scroll to the bottom of the page
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        # Wait for 2 seconds to simulate natural scrolling
-        page.wait_for_timeout(2000)
-
-        # Scroll back to the top of the page
-        page.evaluate("window.scrollTo(0, 0)")
-        # Wait for 2 seconds to simulate natural scrolling
-        page.wait_for_timeout(2000)
-
-        # Close the browser
+        # navigate_subpages(page, sub_pages)
         browser.close()
 
 
 if __name__ == "__main__":
-    create_whitehouse_report()
-    create_cdc_report()
+    for k, v in gov_urls.items():
+        navigate_pages(k, v)
