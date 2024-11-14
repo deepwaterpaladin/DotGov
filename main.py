@@ -16,7 +16,7 @@ gov_urls = {
     "Department of Homeland Security": "https://www.dhs.gov",
     "Department of the Treasury": "https://www.treasury.gov",
     "Department of Health and Human Services": "https://www.hhs.gov",
-    "Centers for Disease Control and Prevention": "https://www.cdc.gov",
+    "CDC": "https://www.cdc.gov",
     "Department of Education": "https://www.ed.gov",
     "Department of Veterans Affairs": "https://www.va.gov",
     "Environmental Protection Agency": "https://www.epa.gov",
@@ -36,7 +36,7 @@ gov_urls = {
 
 def generate_markdown_report(sub_pages, url):
     markdown = f"# {url} Sub-Pages\n\n"
-    markdown += f"### Below is a list of sub-pages found on [{url.replace(' ','').lower()}](https://www.{url.replace(' ','').lower()}):\n\n"
+    markdown += f"## Below is a list of sub-pages found on [{url.replace(' ','').lower()}](https://www.{url.replace(' ','').lower()}):\n\n"
     for url in sub_pages:
         markdown += f"1. [{url}]({url})\n"
 
@@ -45,7 +45,7 @@ def generate_markdown_report(sub_pages, url):
 
 def navigate_subpages(page, sub_pages):
     for s in sub_pages:
-        page.goto(s)
+        page.goto(s, 0)
         page.wait_for_timeout(5000)
         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
         page.wait_for_timeout(2000)
@@ -53,23 +53,23 @@ def navigate_subpages(page, sub_pages):
         page.wait_for_timeout(2000)
 
 
-def navigate_pages(name: str, url: str, path: str):
+def navigate_pages(name: str, url: str, path: str) -> int:
     with sync_playwright() as p:
         split = url.split('.')
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         # page = browser.new_page(record_video_dir="recordings/")
-        page.goto(url)
+        page.goto(url=url, timeout=0)
         sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
                 .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
         """)
         sub_pages = list(set(sub_pages))
-
+        
         markdown_report = generate_markdown_report(
             sub_pages, f"{name}.gov")
-        print(markdown_report)
+        # print(markdown_report)
         filename = f"{name.replace(' ','_')}_SubPages_Report.md"
 
         with open(f"{path}/{filename}", "w") as file:
@@ -82,11 +82,21 @@ def navigate_pages(name: str, url: str, path: str):
 
         # navigate_subpages(page, sub_pages)
         browser.close()
+    return len(sub_pages)
 
 
 if __name__ == "__main__":
     today_str = datetime.now().strftime("%d-%m-%Y")
     folder_path = f"reports/{today_str}"
     os.makedirs(folder_path)
+    errs = 0
+    print(f"{'*'*50}\n{' '*16}{today_str} Scan{' '*20}\n{'*'*50}\n")
     for k, v in gov_urls.items():
-        navigate_pages(k, v, folder_path)
+        try:
+            sp = navigate_pages(k, v, folder_path)
+            print(f"- {k} found with {sp} sub pages.")
+        except:
+            print(f"Issue navigating to {v}")
+            errs +=1
+            continue
+    print(f"Scan compelete with {errs} errors.")
