@@ -1,3 +1,4 @@
+import os
 from playwright.sync_api import sync_playwright
 from datetime import datetime
 
@@ -15,7 +16,7 @@ gov_urls = {
     "Department of Homeland Security": "https://www.dhs.gov",
     "Department of the Treasury": "https://www.treasury.gov",
     "Department of Health and Human Services": "https://www.hhs.gov",
-    "Centers for Disease Control and Prevention (CDC)": "https://www.cdc.gov",
+    "Centers for Disease Control and Prevention": "https://www.cdc.gov",
     "Department of Education": "https://www.ed.gov",
     "Department of Veterans Affairs": "https://www.va.gov",
     "Environmental Protection Agency": "https://www.epa.gov",
@@ -35,7 +36,7 @@ gov_urls = {
 
 def generate_markdown_report(sub_pages, url):
     markdown = f"# {url} Sub-Pages\n\n"
-    markdown += f"### Below is a list of sub-pages found on [{url.lower()}](https://www.{url.lower()}):\n\n"
+    markdown += f"### Below is a list of sub-pages found on [{url.replace(' ','').lower()}](https://www.{url.replace(' ','').lower()}):\n\n"
     for url in sub_pages:
         markdown += f"1. [{url}]({url})\n"
 
@@ -52,7 +53,7 @@ def navigate_subpages(page, sub_pages):
         page.wait_for_timeout(2000)
 
 
-def navigate_pages(name: str, url: str):
+def navigate_pages(name: str, url: str, path: str):
     with sync_playwright() as p:
         split = url.split('.')
         browser = p.chromium.launch(headless=True)
@@ -67,12 +68,11 @@ def navigate_pages(name: str, url: str):
         sub_pages = list(set(sub_pages))
 
         markdown_report = generate_markdown_report(
-            sub_pages, f"{name.strip(' ')}.gov")
+            sub_pages, f"{name}.gov")
         print(markdown_report)
-        today_str = datetime.now().strftime("%d-%m-%Y")
-        filename = f"{today_str}-{name.strip(' ')}_SubPages_Report.md"
+        filename = f"{name.replace(' ','_')}_SubPages_Report.md"
 
-        with open(f"reports/{filename}", "w") as file:
+        with open(f"{path}/{filename}", "w") as file:
             file.write(markdown_report)
 
         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
@@ -85,5 +85,8 @@ def navigate_pages(name: str, url: str):
 
 
 if __name__ == "__main__":
+    today_str = datetime.now().strftime("%d-%m-%Y")
+    folder_path = f"reports/{today_str}"
+    os.makedirs(folder_path)
     for k, v in gov_urls.items():
-        navigate_pages(k, v)
+        navigate_pages(k, v, folder_path)
