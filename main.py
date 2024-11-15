@@ -57,9 +57,9 @@ def navigate_pages(name: str, url: str, path: str) -> int:
     with sync_playwright() as p:
         split = url.split('.')
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        # page = browser.new_page(record_video_dir="recordings/")
-        page.goto(url=url, timeout=0)
+        # page = browser.new_page()
+        page = browser.new_page(record_video_dir="recordings/")
+        page.goto(url=url, timeout=0, wait_until='load')
         sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
@@ -80,7 +80,7 @@ def navigate_pages(name: str, url: str, path: str) -> int:
         page.evaluate("window.scrollTo(0, 0)")
         page.wait_for_timeout(2000)
 
-        navigate_subpages(page, sub_pages[:10])
+        # navigate_subpages(page, sub_pages[:10])
         browser.close()
     return len(sub_pages)
 
@@ -90,13 +90,15 @@ if __name__ == "__main__":
     folder_path = f"reports/{today_str}"
     os.makedirs(folder_path)
     errs = 0
+    tot = 0
     print(f"{'*'*50}\n{' '*16}{today_str} Scan{' '*20}\n{'*'*50}\n")
     for k, v in gov_urls.items():
         try:
             sp = navigate_pages(k, v, folder_path)
             print(f"- {k} found with {sp} sub pages.")
+            tot += sp
         except:
             print(f"Issue navigating to {v}")
             errs +=1
             continue
-    print(f"Scan compelete with {errs} errors.")
+    print(f"Scan compelete with {tot} pages found & {errs} errors.")
