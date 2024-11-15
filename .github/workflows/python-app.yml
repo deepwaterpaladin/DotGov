@@ -40,7 +40,7 @@ jobs:
     - name: Install Playwright Browser
       run: playwright install --with-deps chromium
     
-    - name: Run main.py
+    - name: Run Scan
       run: |
         python main.py
     - name: Commit new reports directory
