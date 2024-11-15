@@ -14,7 +14,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    env:
+        # Pass GitHub token to authenticate the push
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
@@ -48,6 +50,4 @@ jobs:
         git add reports/*
         git commit -m "Add new reports directory from pipeline run"
         git push
-      env:
-        # Pass GitHub token to authenticate the push
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
