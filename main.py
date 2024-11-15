@@ -60,7 +60,7 @@ def navigate_pages(name: str, url: str, path: str) -> int:
         page = browser.new_page()
         # page = browser.new_page(record_video_dir="recordings/")
         page.goto(url=url, timeout=0, wait_until='domcontentloaded')
-        page.wait_for_timeout(5000)
+        page.wait_for_timeout(2500)
         sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
@@ -69,6 +69,7 @@ def navigate_pages(name: str, url: str, path: str) -> int:
         sub_pages = list(set(sub_pages))
         tries = 0
         while len(sub_pages) == 0 and tries < 10:
+            page.wait_for_timeout(5000)
             sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
