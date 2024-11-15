@@ -97,8 +97,9 @@ if __name__ == "__main__":
             sp = navigate_pages(k, v, folder_path)
             print(f"- {k} found with {sp} sub pages.")
             tot += sp
-        except:
+        except Exception as e:
             print(f"Issue navigating to {v}")
+            print(e)
             errs +=1
             continue
     print(f"Scan compelete with {tot} pages found & {errs} errors.")
