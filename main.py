@@ -59,13 +59,22 @@ def navigate_pages(name: str, url: str, path: str) -> int:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         # page = browser.new_page(record_video_dir="recordings/")
-        page.goto(url=url, timeout=0, wait_until='load')
+        page.goto(url=url, timeout=0, wait_until='domcontentloaded')
+        page.wait_for_timeout(5000)
         sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
                 .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
         """)
         sub_pages = list(set(sub_pages))
+        while len(sub_pages) == 0:
+            page.pause()
+            sub_pages = page.evaluate(f"""
+            Array.from(document.querySelectorAll('a'))
+                .map(anchor => anchor.href)
+                .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
+            """)
+            sub_pages = list(set(sub_pages))
         
         markdown_report = generate_markdown_report(
             sub_pages, f"{name}.gov")
