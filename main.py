@@ -7,29 +7,29 @@ gov_urls = {
     "White House": "https://www.whitehouse.gov",
     "USA": "https://www.usa.gov",
     "Library of Congress": "https://www.loc.gov",
-    "Department of Defense": "https://www.defense.gov",
+    "Defense": "https://www.defense.gov",
     "US Army": "https://www.army.mil",
     "US Navy": "https://www.navy.mil",
     "US Air Force": "https://www.af.mil",
-    "Department of State": "https://www.state.gov",
-    "Department of Justice": "https://www.justice.gov",
-    "Department of Homeland Security": "https://www.dhs.gov",
+    "State": "https://www.state.gov",
+    "Justice": "https://www.justice.gov",
+    "DHS": "https://www.dhs.gov",
     "Department of the Treasury": "https://www.treasury.gov",
-    "Department of Health and Human Services": "https://www.hhs.gov",
+    "HHS": "https://www.hhs.gov",
     "CDC": "https://www.cdc.gov",
     "Department of Education": "https://www.ed.gov",
-    "Department of Veterans Affairs": "https://www.va.gov",
+    "Veterans Affairs": "https://www.va.gov",
     "Environmental Protection Agency": "https://www.epa.gov",
     "National Institutes of Health": "https://www.nih.gov",
     "National Science Foundation": "https://www.nsf.gov",
     "US Geological Survey": "https://www.usgs.gov",
-    "Internal Revenue Service": "https://www.irs.gov",
+    "IRS": "https://www.irs.gov",
     "Federal Reserve": "https://www.federalreserve.gov",
     "Securities and Exchange Commission": "https://www.sec.gov",
     "Small Business Administration": "https://www.sba.gov",
     "Social Security Administration": "https://www.ssa.gov",
-    "Federal Emergency Management Agency": "https://www.fema.gov",
-    "Transportation Security Administration": "https://www.tsa.gov",
+    "FEMA": "https://www.fema.gov",
+    "TSA": "https://www.tsa.gov",
     "US Citizenship and Immigration Services": "https://www.uscis.gov"
 }
 
@@ -45,7 +45,7 @@ def generate_markdown_report(sub_pages, url):
 
 def navigate_subpages(page, sub_pages):
     for s in sub_pages:
-        page.goto(s, 0)
+        page.goto(s, timeout=0)
         page.wait_for_timeout(5000)
         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
         page.wait_for_timeout(2000)
@@ -80,7 +80,7 @@ def navigate_pages(name: str, url: str, path: str) -> int:
         page.evaluate("window.scrollTo(0, 0)")
         page.wait_for_timeout(2000)
 
-        # navigate_subpages(page, sub_pages)
+        navigate_subpages(page, sub_pages[:10])
         browser.close()
     return len(sub_pages)
 
