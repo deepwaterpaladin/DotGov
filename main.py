@@ -57,8 +57,8 @@ def navigate_pages(name: str, url: str, path: str) -> int:
     with sync_playwright() as p:
         split = url.split('.')
         browser = p.chromium.launch(headless=True)
-        # page = browser.new_page()
-        page = browser.new_page(record_video_dir="recordings/")
+        page = browser.new_page()
+        # page = browser.new_page(record_video_dir="recordings/")
         page.goto(url=url, timeout=0, wait_until='load')
         sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
