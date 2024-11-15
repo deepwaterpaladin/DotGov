@@ -80,7 +80,6 @@ def navigate_pages(name: str, url: str, path: str) -> int:
         
         markdown_report = generate_markdown_report(
             sub_pages, f"{name}.gov")
-        # print(markdown_report)
         filename = f"{name.replace(' ','_')}_SubPages_Report.md"
 
         with open(f"{path}/{filename}", "w") as file:
