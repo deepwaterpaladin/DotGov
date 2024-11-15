@@ -67,14 +67,15 @@ def navigate_pages(name: str, url: str, path: str) -> int:
                 .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
         """)
         sub_pages = list(set(sub_pages))
-        while len(sub_pages) == 0:
-            page.pause()
+        tries = 0
+        while len(sub_pages) == 0 and tries < 10:
             sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
                 .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
             """)
             sub_pages = list(set(sub_pages))
+            tries +=1
         
         markdown_report = generate_markdown_report(
             sub_pages, f"{name}.gov")
