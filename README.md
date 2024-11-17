@@ -6,7 +6,7 @@
 
 ## Reporting Structure
 
-- Videos are taken on each subpage of the base `.gov` url for a given site.
+- Videos are taken on each subpage of the base `.gov` url for a given site
 - A full markdown report is saved for each site, found in the `reports/` directory
 
 ## Contributing
