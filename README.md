@@ -2,7 +2,7 @@
 
 ## Explanation
 
-- TBD
+- Project dedicated to tracking the changes in .gov websites between the 46th & 47th American Presidential administrations
 
 ## Reporting Structure
 
