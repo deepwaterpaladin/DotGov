@@ -16,5 +16,5 @@
 
 ## TODO:
 
-1. Enable tracing & handle saving traces from each site
+1. Enable page recording in pipeline 
 1. Implement site-specific change log
