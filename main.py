@@ -55,7 +55,10 @@ def handle_current_dir(root: str = "reports") -> str:
     if int(today_str.split('-')[0]) == 1:
         os.makedirs(folder_path)
     fin_path = folder_path+today_str
-    os.makedirs(fin_path)
+    try:
+        os.makedirs(fin_path)
+    except:
+        print(f"{fin_path} already exists.\n\n\n")
 
     return fin_path
 
@@ -83,7 +86,7 @@ def navigate_pages(name: str, url: str, path: str, rec_path: str) -> int:
     with sync_playwright() as p:
         split = url.split('.')
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page(record_video_dir=f"{rec_path}/{name}", user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+        page = browser.new_page(record_video_dir=f"{rec_path}", user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
                                 viewport={"width": 1920, "height": 1080})
         page.goto(url=url, timeout=0, wait_until='domcontentloaded')
         page.wait_for_timeout(2500)
@@ -111,7 +114,12 @@ def navigate_pages(name: str, url: str, path: str, rec_path: str) -> int:
         page.wait_for_timeout(1000)
 
         # navigate_subpages(page, sub_pages[:10])
+
+        page.close()
+        init_path = page.video.path()
+        page.video.save_as(f"{rec_path}/{name}.webm")
         browser.close()
+        os.remove(init_path)
 
     return len(sub_pages)
 
