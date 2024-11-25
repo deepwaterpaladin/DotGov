@@ -13,3 +13,8 @@
 
 1. Install dependencies `pip install -r requirements.txt`
 1. Install playwright browser(s) `playwright install`
+
+## TODO:
+
+1. Enable tracing & handle saving traces from each site
+1. Implement site-specific change log
