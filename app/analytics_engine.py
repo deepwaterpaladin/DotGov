@@ -36,7 +36,7 @@ def create_log(current_date_path: str, previous_date_path: str) -> None:
         current_date_path (str): Path to current date's report directory
         previous_date_path (str): Path to previous date's report directory
     """
-    output_log_path = os.path.join(current_date_path, 'change_log.csv')
+    output_log_path = os.path.join(current_date_path, '.change_log.csv')
 
     log_rows = []
 
@@ -49,8 +49,8 @@ def create_log(current_date_path: str, previous_date_path: str) -> None:
             if not previous_file.exists():
                 continue
 
-            previous_links = count_markdown_links(str(previous_file))
-            current_links = count_markdown_links(str(current_file))
+            previous_links = count_markdown_links(str(previous_file))-1
+            current_links = count_markdown_links(str(current_file))-1
 
             if previous_links == current_links:
                 change_summary = 'NO CHANGE'
@@ -79,7 +79,8 @@ def create_log(current_date_path: str, previous_date_path: str) -> None:
                     'inf'),
                 1 if x['change_summary'].startswith('-') else 2,
                 x['sort_key']
-            )
+            ),
+            reverse=True
         )
 
         with open(output_log_path, 'w', newline='', encoding='utf-8') as csvfile:

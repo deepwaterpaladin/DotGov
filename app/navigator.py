@@ -28,21 +28,12 @@ def navigate_pages(name: str, url: str, path: str, rec_path: str) -> int:
         page = browser.new_page(record_video_dir=f"{rec_path}", user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
                                 viewport={"width": 1920, "height": 1080})
         page.goto(url=url, timeout=0, wait_until='domcontentloaded')
-        page.wait_for_timeout(2500)
+        page.wait_for_timeout(3000)
         sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
                 .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
         """)
-        sub_pages = list(set(sub_pages))
-
-        markdown_report = generate_markdown_report(
-            sub_pages, f"{split[1].replace(' ', '')}.gov", name)
-        filename = f"{name.replace(' ','_')}_SubPages_Report.md"
-
-        with open(f"{path}/{filename}", "w") as file:
-            file.write(markdown_report)
-
         page.evaluate("window.scrollTo(0, document.body.scrollHeight/4)")
         page.wait_for_timeout(1500)
         page.evaluate("window.scrollTo(0, document.body.scrollHeight/2)")
@@ -51,6 +42,20 @@ def navigate_pages(name: str, url: str, path: str, rec_path: str) -> int:
         page.wait_for_timeout(1500)
         page.evaluate("window.scrollTo(0, 0)")
         page.wait_for_timeout(1000)
+        sub_pages2 = page.evaluate(f"""
+            Array.from(document.querySelectorAll('a'))
+                .map(anchor => anchor.href)
+                .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
+        """)
+
+        sub_pages = list(set(sub_pages+sub_pages2))
+
+        markdown_report = generate_markdown_report(
+            sub_pages, f"{split[1].replace(' ', '')}.gov", name)
+        filename = f"{name.replace(' ','_')}_SubPages_Report.md"
+
+        with open(f"{path}/{filename}", "w") as file:
+            file.write(markdown_report)
 
         # navigate_subpages(page, sub_pages[:10])
 
