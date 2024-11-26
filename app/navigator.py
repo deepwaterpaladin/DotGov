@@ -50,13 +50,14 @@ def navigate_pages(name: str, url: str, path: str, rec_path: str) -> int:
 
         sub_pages = list(set(sub_pages+sub_pages2))
 
-        if len(sub_pages) == 0:
+        if len(sub_pages) < 3:
             page.reload()
-            sub_pages = page.evaluate(f"""
+            sub_pages3 = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
                 .filter(href => href.includes('{split[1]}') && !href.endsWith('#'))
             """)
+            sub_pages = list(set(sub_pages+sub_pages3))
 
         markdown_report = generate_markdown_report(
             sub_pages, f"{split[1].replace(' ', '')}.gov", name)
