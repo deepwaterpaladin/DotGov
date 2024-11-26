@@ -77,10 +77,9 @@ def create_log(current_date_path: str, previous_date_path: str) -> None:
             key=lambda x: (
                 abs(x['sort_key']) if x['change_summary'] != 'NO CHANGE' else float(
                     'inf'),
-                1 if x['change_summary'].startswith('-') else 2,
+                2 if x['change_summary'].startswith('-') else 1,
                 x['sort_key']
-            ),
-            reverse=True
+            )
         )
 
         with open(output_log_path, 'w', newline='', encoding='utf-8') as csvfile:
