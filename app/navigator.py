@@ -25,7 +25,7 @@ def navigate_pages(name: str, url: str, path: str, rec_path: str) -> int:
     with sync_playwright() as p:
         split = url.split('.')
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page(record_video_dir=f"{rec_path}", user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+        page = browser.new_page(record_video_dir=f"{rec_path}", user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
                                 viewport={"width": 1920, "height": 1080}, extra_http_headers={"Accept-Encoding": "gzip, deflate"})
         page.goto(url=url, timeout=0, wait_until='domcontentloaded')
         page.wait_for_timeout(3000)
