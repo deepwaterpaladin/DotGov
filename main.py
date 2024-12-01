@@ -31,7 +31,10 @@ gov_urls = {
     "Social Security Administration": "https://www.ssa.gov",
     "FEMA": "https://www.fema.gov",
     "TSA": "https://www.tsa.gov",
-    "US Citizenship and Immigration Services": "https://www.uscis.gov"
+    "US Citizenship and Immigration Services": "https://www.uscis.gov",
+    "FBI":"https://www.fbi.gov",
+    "CIA":"https://www.cia.gov"
+
 }
 
 
