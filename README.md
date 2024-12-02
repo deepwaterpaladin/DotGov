@@ -16,6 +16,6 @@
 
 ## TODO:
 
-1. Properly track subpages for HHS and SEC websites
+1. Properly track subpages for HHS and SEC, & CIA websites
 1. ~~Enable page recording in pipeline~~
 1. ~~Implement site-specific change log~~
