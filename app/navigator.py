@@ -29,6 +29,7 @@ def navigate_pages(name: str, url: str, path: str, rec_path: str) -> int:
                                 viewport={"width": 1920, "height": 1080}, extra_http_headers={"Accept-Encoding": "gzip, deflate"})
         page.goto(url=url, timeout=0, wait_until='domcontentloaded')
         page.wait_for_timeout(3000)
+        handle_djt_wh(page)
         sub_pages = page.evaluate(f"""
             Array.from(document.querySelectorAll('a'))
                 .map(anchor => anchor.href)
@@ -75,3 +76,10 @@ def navigate_pages(name: str, url: str, path: str, rec_path: str) -> int:
         os.remove(init_path)
 
     return len(sub_pages)
+
+def handle_djt_wh(page):
+    try:
+        page.get_by_role("button", name="Close").click()
+    except:
+        pass
+    
