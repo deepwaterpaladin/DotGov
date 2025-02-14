@@ -33,7 +33,8 @@ gov_urls = {
     "TSA": "https://www.tsa.gov",
     "US Citizenship and Immigration Services": "https://www.uscis.gov",
     "FBI":"https://www.fbi.gov",
-    "CIA":"https://www.cia.gov"
+    "CIA":"https://www.cia.gov",
+    "DOGE":"https://doge.gov/"
 }
 
 
