@@ -1,0 +1,27 @@
+# Defense Sub-Pages
+
+## Below is a list of sub-pages found on [Defense](https://www.defense.gov):
+
+1. [https://www.defense.gov/News/Releases/Release/Article/4294758/general-and-flag-officers-announcement-for-sept-5-2025/](https://www.defense.gov/News/Releases/Release/Article/4294758/general-and-flag-officers-announcement-for-sept-5-2025/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4295018/dod-awards-yuma-elementary-school-district-one-an-8030235-grant-for-james-d-pri/](https://www.defense.gov/News/Releases/Release/Article/4295018/dod-awards-yuma-elementary-school-district-one-an-8030235-grant-for-james-d-pri/)
+1. [https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF](https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4293828/lead-with-endurance-character-hegseth-tells-new-army-officers/](https://www.defense.gov/News/News-Stories/Article/Article/4293828/lead-with-endurance-character-hegseth-tells-new-army-officers/)
+1. [http://dodcio.defense.gov/DoD-Web-Policy/](http://dodcio.defense.gov/DoD-Web-Policy/)
+1. [https://www.defense.gov/News/Advisories/Advisory/Article/4292465/secretary-of-defense-pete-hegseth-to-travel-to-fort-benning/](https://www.defense.gov/News/Advisories/Advisory/Article/4292465/secretary-of-defense-pete-hegseth-to-travel-to-fort-benning/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4296130/this-week-in-dow-dod-is-now-dow-hegseth-honors-newest-army-officers-space-comma/](https://www.defense.gov/News/News-Stories/Article/Article/4296130/this-week-in-dow-dod-is-now-dow-hegseth-honors-newest-army-officers-space-comma/)
+1. [http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx](http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx)
+1. [https://www.defense.gov/Multimedia/Experience/category/22642/](https://www.defense.gov/Multimedia/Experience/category/22642/)
+1. [https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/](https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/)
+1. [https://business.defense.gov/](https://business.defense.gov/)
+1. [https://www.youtube.com/deptofdefense](https://www.youtube.com/deptofdefense)
+1. [https://comptroller.defense.gov/ODCFO/afr/](https://comptroller.defense.gov/ODCFO/afr/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4261463/pcs-task-force-launches-call-center-delivering-answers-on-military-moves/](https://www.defense.gov/News/News-Stories/Article/Article/4261463/pcs-task-force-launches-call-center-delivering-answers-on-military-moves/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4284018/dod-civilians-can-volunteer-for-details-to-southern-border/](https://www.defense.gov/News/News-Stories/Article/Article/4284018/dod-civilians-can-volunteer-for-details-to-southern-border/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4295972/northcom-wraps-up-arctic-edge-25/](https://www.defense.gov/News/News-Stories/Article/Article/4295972/northcom-wraps-up-arctic-edge-25/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4278675/nation-to-mark-patriot-day-with-tributes/](https://www.defense.gov/News/News-Stories/Article/Article/4278675/nation-to-mark-patriot-day-with-tributes/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4274268/pcs-joint-task-force-hosts-industry-day/](https://www.defense.gov/News/News-Stories/Article/Article/4274268/pcs-joint-task-force-hosts-industry-day/)
+1. [http://prhome.defense.gov/NoFear/](http://prhome.defense.gov/NoFear/)
+1. [https://www.defense.gov/Multimedia/Experience/category/25144/](https://www.defense.gov/Multimedia/Experience/category/25144/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4295826/trump-renames-dod-to-department-of-war/](https://www.defense.gov/News/News-Stories/Article/Article/4295826/trump-renames-dod-to-department-of-war/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4288338/pcs-task-force-holds-military-spouse-town-hall/](https://www.defense.gov/News/News-Stories/Article/Article/4288338/pcs-task-force-holds-military-spouse-town-hall/)
+1. [http://open.defense.gov/](http://open.defense.gov/)
