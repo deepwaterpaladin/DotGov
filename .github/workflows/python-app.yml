@@ -24,6 +24,7 @@ jobs:
           main.py
           app
           reports
+          recordings
         sparse-checkout-cone-mode: true
 
     - name: Set up Python 3.10
