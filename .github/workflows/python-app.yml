@@ -6,24 +6,26 @@ on:
   issues:
       types:
         - opened
+
 permissions:
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-        # Pass GitHub token to authenticate the push
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 1
         sparse-checkout: |
-          *
-          !recordings/*
-        sparse-checkout-cone-mode: false
-        
-        
+          main.py
+          app
+          reports
+        sparse-checkout-cone-mode: true
+
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
@@ -54,7 +56,6 @@ jobs:
       run: |
         python main.py
         
-
     - name: Commit new reports and recordings
       run: |
         git config --local user.name "Automated"
