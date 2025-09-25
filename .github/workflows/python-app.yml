@@ -21,6 +21,7 @@ jobs:
         sparse-checkout: |
           *
           !recordings/*
+        sparse-checkout-cone-mode: false
         
         
     - name: Set up Python 3.10
