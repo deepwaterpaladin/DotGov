@@ -20,11 +20,6 @@ jobs:
         # Shallow clone to save space
         fetch-depth: 1
         
-    - name: Remove large directories to save space
-      run: |
-        # Remove existing large directories if they exist
-        rm -rf ./recordings ./reports
-        echo "Removed large directories to save disk space"
         
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
