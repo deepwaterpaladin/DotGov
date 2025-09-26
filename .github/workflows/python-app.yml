@@ -60,7 +60,7 @@ jobs:
       run: |
         git config --local user.name "Automated"
         git config --local user.email "actions@users.noreply.github.com"
-        git sparse-checkout disable
+
         # Add and commit reports
         git add reports/*
         if ! git diff --staged --quiet; then
@@ -69,6 +69,7 @@ jobs:
         fi
     
         # Add and commit recordings
+        git sparse-checkout add recordings
         git add -f recordings/*
         if ! git diff --staged --quiet; then
           timestamp=$(date -u)
