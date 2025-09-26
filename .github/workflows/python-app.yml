@@ -24,7 +24,6 @@ jobs:
           main.py
           app
           reports
-          recordings
         sparse-checkout-cone-mode: true
 
     - name: Set up Python 3.10
@@ -61,19 +60,19 @@ jobs:
       run: |
         git config --local user.name "Automated"
         git config --local user.email "actions@users.noreply.github.com"
-        
+    
         # Add and commit reports
         git add reports/*
         if ! git diff --staged --quiet; then
           timestamp=$(date -u)
           git commit -m "added reports for ${timestamp}"
         fi
-        
-        # Add and commit recordings  
-        git add recordings/*
+    
+        # Add and commit recordings
+        git add -f recordings/*
         if ! git diff --staged --quiet; then
           timestamp=$(date -u)
           git commit -m "added recordings for ${timestamp}"
         fi
-        
+    
         git push
