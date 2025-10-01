@@ -67,9 +67,10 @@ jobs:
           timestamp=$(date -u)
           git commit -m "added reports for ${timestamp}"
         fi
-    
-        # Add and commit recordings
-        git add -f recordings/*
+
+        # Force add recordings (outside sparse-checkout)
+        git sparse-checkout set main.py app reports recordings
+        git add recordings/*
         if ! git diff --staged --quiet; then
           timestamp=$(date -u)
           git commit -m "added recordings for ${timestamp}"
