@@ -68,8 +68,8 @@ jobs:
           git commit -m "added reports for ${timestamp}"
         fi
 
-        # Force add recordings (outside sparse-checkout)
-        git sparse-checkout set app reports recordings
+        # Temporarily allow recordings into the sparse index to commit them
+        git sparse-checkout add recordings
         git add recordings/*
         if ! git diff --staged --quiet; then
           timestamp=$(date -u)
@@ -77,3 +77,6 @@ jobs:
         fi
     
         git push
+    
+        # Remove recordings from sparse-checkout again (avoid pulling next run)
+        git sparse-checkout set main.py app reports
