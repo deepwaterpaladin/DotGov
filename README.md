@@ -1,5 +1,7 @@
 # DotGov Project
 
+[![Daily Scan](https://github.com/deepwaterpaladin/DotGov/actions/workflows/python-app.yml/badge.svg)](https://github.com/deepwaterpaladin/DotGov/actions/workflows/python-app.yml)
+
 ## Explanation
 
 - Project dedicated to tracking the changes in federal (.gov) websites between the 46th & 47th American Presidential administrations.
@@ -19,3 +21,4 @@
 1. Properly track subpages for HHS and SEC, & CIA websites
 1. ~~Enable page recording in pipeline~~
 1. ~~Implement site-specific change log~~
+
