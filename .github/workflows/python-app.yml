@@ -69,11 +69,10 @@ jobs:
         fi
     
         # Add and commit recordings
-        # git sparse-checkout add recordings
-        # git add -f recordings/*
-        # if ! git diff --staged --quiet; then
-        #   timestamp=$(date -u)
-        #   git commit -m "added recordings for ${timestamp}"
-        # fi
+        git add -f recordings/*
+        if ! git diff --staged --quiet; then
+          timestamp=$(date -u)
+          git commit -m "added recordings for ${timestamp}"
+        fi
     
         git push
