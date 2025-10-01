@@ -69,7 +69,7 @@ jobs:
         fi
 
         # Force add recordings (outside sparse-checkout)
-        git sparse-checkout set main.py app reports recordings
+        git sparse-checkout set app reports recordings
         git add recordings/*
         if ! git diff --staged --quiet; then
           timestamp=$(date -u)
