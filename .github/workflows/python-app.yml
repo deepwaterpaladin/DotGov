@@ -77,6 +77,3 @@ jobs:
         fi
     
         git push
-    
-        # Remove recordings from sparse-checkout again (avoid pulling next run)
-        git sparse-checkout set main.py app reports
