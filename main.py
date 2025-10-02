@@ -90,7 +90,7 @@ if __name__ == "__main__":
     today_folder = generate_folder_path(today_str)
     yesterday_folder = generate_folder_path(yesterday_str)
     folder_path = handle_current_dir()
-    rec_path = handle_current_dir('recordings')
+    rec_path = handle_current_dir('recordings-v2')
     errs = 0
     tot = 0
     print(f"{'*'*50}\n{' '*16}{today_str} Scan{' '*20}\n{'*'*50}\n")
@@ -106,3 +106,4 @@ if __name__ == "__main__":
             continue
     create_log(today_folder, yesterday_folder)
     print(f"Scan compelete with {tot} pages found & {errs} errors.")
+
