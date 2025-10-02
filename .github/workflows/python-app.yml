@@ -47,7 +47,7 @@ jobs:
     - name: Create Directories
       run: |
         mkdir -p ./reports
-        mkdir -p ./recordings
+        mkdir -p ./recordings-v2
     
     - name: Install Playwright Browser
       run: playwright install --with-deps chromium
@@ -69,8 +69,8 @@ jobs:
         fi
 
         # Temporarily allow recordings into the sparse index to commit them
-        git sparse-checkout add recordings
-        git add recordings/*
+        git sparse-checkout add recordings-v2
+        git add recordings-v2/*
         if ! git diff --staged --quiet; then
           timestamp=$(date -u)
           git commit -m "added recordings for ${timestamp}"
