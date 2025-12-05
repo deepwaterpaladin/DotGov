@@ -1,0 +1,27 @@
+# Defense Sub-Pages
+
+## Below is a list of sub-pages found on [Defense](https://www.defense.gov):
+
+1. [https://www.defense.gov/Multimedia/Experience/category/25144/](https://www.defense.gov/Multimedia/Experience/category/25144/)
+1. [http://dodcio.defense.gov/DoD-Web-Policy/](http://dodcio.defense.gov/DoD-Web-Policy/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4348405/navy-successfully-removes-uss-arizona-platform-concrete/](https://www.defense.gov/News/News-Stories/Article/Article/4348405/navy-successfully-removes-uss-arizona-platform-concrete/)
+1. [https://comptroller.defense.gov/ODCFO/afr/](https://comptroller.defense.gov/ODCFO/afr/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4347258/centcom-launches-attack-drone-task-force-in-middle-east/](https://www.defense.gov/News/News-Stories/Article/Article/4347258/centcom-launches-attack-drone-task-force-in-middle-east/)
+1. [https://www.defense.gov/News/Transcripts/Transcript/Article/4346661/pentagon-press-secretary-kingsley-wilson-holds-an-on-camera-on-the-record-press/](https://www.defense.gov/News/Transcripts/Transcript/Article/4346661/pentagon-press-secretary-kingsley-wilson-holds-an-on-camera-on-the-record-press/)
+1. [https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/](https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/)
+1. [https://www.defense.gov/News/Advisories/Advisory/Article/4348379/secretary-of-war-pete-hegseth-to-host-swedish-minister-of-defence-pl-jonson/](https://www.defense.gov/News/Advisories/Advisory/Article/4348379/secretary-of-war-pete-hegseth-to-host-swedish-minister-of-defence-pl-jonson/)
+1. [https://www.defense.gov/Multimedia/Experience/category/22642/](https://www.defense.gov/Multimedia/Experience/category/22642/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4344095/hegseth-pays-surprise-thanksgiving-day-visit-to-sailors-in-southcom-aor/](https://www.defense.gov/News/News-Stories/Article/Article/4344095/hegseth-pays-surprise-thanksgiving-day-visit-to-sailors-in-southcom-aor/)
+1. [http://open.defense.gov/](http://open.defense.gov/)
+1. [https://business.defense.gov/](https://business.defense.gov/)
+1. [http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx](http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4346822/war-department-asks-industry-to-make-more-than-300k-drones-quickly-cheaply/](https://www.defense.gov/News/News-Stories/Article/Article/4346822/war-department-asks-industry-to-make-more-than-300k-drones-quickly-cheaply/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4348520/18th-wing-airmen-strengthen-kadena-air-bases-foundation-for-airpower/](https://www.defense.gov/News/News-Stories/Article/Article/4348520/18th-wing-airmen-strengthen-kadena-air-bases-foundation-for-airpower/)
+1. [http://prhome.defense.gov/NoFear/](http://prhome.defense.gov/NoFear/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/](https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/)
+1. [https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF](https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4348000/war-department-welcomes-new-pentagon-press-corps/](https://www.defense.gov/News/News-Stories/Article/Article/4348000/war-department-welcomes-new-pentagon-press-corps/)
+1. [https://www.defense.gov/News/Advisories/Advisory/Article/4348864/secretary-of-war-pete-hegseth-travel-to-reagan-national-defense-forum-in-simi-v/](https://www.defense.gov/News/Advisories/Advisory/Article/4348864/secretary-of-war-pete-hegseth-travel-to-reagan-national-defense-forum-in-simi-v/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4350032/hegseth-hosts-swedish-counterpart-at-pentagon/](https://www.defense.gov/News/News-Stories/Article/Article/4350032/hegseth-hosts-swedish-counterpart-at-pentagon/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4331726/los-angeles-meps-launches-selfie-station/](https://www.defense.gov/News/News-Stories/Article/Article/4331726/los-angeles-meps-launches-selfie-station/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4348040/hegseth-wife-dedicate-inaugural-pentagon-christmas-tree-to-families-of-service/](https://www.defense.gov/News/News-Stories/Article/Article/4348040/hegseth-wife-dedicate-inaugural-pentagon-christmas-tree-to-families-of-service/)
