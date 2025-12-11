@@ -1,0 +1,26 @@
+# Defense Sub-Pages
+
+## Below is a list of sub-pages found on [Defense](https://www.defense.gov):
+
+1. [http://prhome.defense.gov/NoFear/](http://prhome.defense.gov/NoFear/)
+1. [https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/](https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/](https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/)
+1. [https://comptroller.defense.gov/ODCFO/afr/](https://comptroller.defense.gov/ODCFO/afr/)
+1. [https://www.defense.gov/News/Advisories/Advisory/Article/4355207/secretary-of-war-pete-hegseth-to-host-australian-and-united-kingdom-defense-min/](https://www.defense.gov/News/Advisories/Advisory/Article/4355207/secretary-of-war-pete-hegseth-to-host-australian-and-united-kingdom-defense-min/)
+1. [https://www.defense.gov/Multimedia/Experience/category/25144/](https://www.defense.gov/Multimedia/Experience/category/25144/)
+1. [http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx](http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx)
+1. [http://open.defense.gov/](http://open.defense.gov/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4356411/army-activates-us-army-western-hemisphere-command-in-historic-transition-ceremo/](https://www.defense.gov/News/News-Stories/Article/Article/4356411/army-activates-us-army-western-hemisphere-command-in-historic-transition-ceremo/)
+1. [https://www.defense.gov/News/Transcripts/Transcript/Article/4356467/secretary-of-war-pete-hegseth-hosts-aukus-defense-ministers-meeting/](https://www.defense.gov/News/Transcripts/Transcript/Article/4356467/secretary-of-war-pete-hegseth-hosts-aukus-defense-ministers-meeting/)
+1. [https://www.defense.gov/News/Feature-Stories/Story/Article/4355241/from-quadcopters-to-micro-uas-the-aircraft-used-at-dows-drone-school/](https://www.defense.gov/News/Feature-Stories/Story/Article/4355241/from-quadcopters-to-micro-uas-the-aircraft-used-at-dows-drone-school/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4355088/us-army-europe-africa-launches-first-drone-warfighter-competition/](https://www.defense.gov/News/News-Stories/Article/Article/4355088/us-army-europe-africa-launches-first-drone-warfighter-competition/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4356250/indiana-national-guard-soldiers-arrive-in-nations-capital/](https://www.defense.gov/News/News-Stories/Article/Article/4356250/indiana-national-guard-soldiers-arrive-in-nations-capital/)
+1. [https://www.war.gov/News/Transcripts/Transcript/Article/4356467/secretary-of-war-pete-hegseth-hosts-aukus-defense-ministers-meeting/](https://www.war.gov/News/Transcripts/Transcript/Article/4356467/secretary-of-war-pete-hegseth-hosts-aukus-defense-ministers-meeting/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4356575/two-embroiderers-quickly-create-flag-for-armys-western-hemisphere-command/](https://www.defense.gov/News/News-Stories/Article/Article/4356575/two-embroiderers-quickly-create-flag-for-armys-western-hemisphere-command/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4355797/hegseth-introduces-department-to-new-ai-tool/](https://www.defense.gov/News/News-Stories/Article/Article/4355797/hegseth-introduces-department-to-new-ai-tool/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4356910/aukus-defense-ministers-meeting-joint-statement/](https://www.defense.gov/News/Releases/Release/Article/4356910/aukus-defense-ministers-meeting-joint-statement/)
+1. [https://business.defense.gov/](https://business.defense.gov/)
+1. [https://www.defense.gov/Multimedia/Experience/category/22642/](https://www.defense.gov/Multimedia/Experience/category/22642/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4356519/hegseth-hosts-aukus-meeting-with-australia-uk-counterparts/](https://www.defense.gov/News/News-Stories/Article/Article/4356519/hegseth-hosts-aukus-meeting-with-australia-uk-counterparts/)
+1. [https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF](https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF)
+1. [http://dodcio.defense.gov/DoD-Web-Policy/](http://dodcio.defense.gov/DoD-Web-Policy/)
