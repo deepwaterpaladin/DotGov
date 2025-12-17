@@ -1,0 +1,25 @@
+# Defense Sub-Pages
+
+## Below is a list of sub-pages found on [Defense](https://www.defense.gov):
+
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4344095/hegseth-pays-surprise-thanksgiving-day-visit-to-sailors-in-southcom-aor/](https://www.defense.gov/News/News-Stories/Article/Article/4344095/hegseth-pays-surprise-thanksgiving-day-visit-to-sailors-in-southcom-aor/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/](https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/)
+1. [https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/](https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/)
+1. [http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx](http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx)
+1. [https://www.defense.gov/Multimedia/Experience/category/25144/](https://www.defense.gov/Multimedia/Experience/category/25144/)
+1. [https://comptroller.defense.gov/ODCFO/afr/](https://comptroller.defense.gov/ODCFO/afr/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4360802/secretary-of-war-general-officer-announcements-for-december-15-2025/](https://www.defense.gov/News/Releases/Release/Article/4360802/secretary-of-war-general-officer-announcements-for-december-15-2025/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4359971/innovation-lab-turns-ideas-into-warfighter-solutions-in-days-not-months/](https://www.defense.gov/News/News-Stories/Article/Article/4359971/innovation-lab-turns-ideas-into-warfighter-solutions-in-days-not-months/)
+1. [https://www.defense.gov/News/Feature-Stories/Story/Article/4361832/norad-celebrates-70-years-of-tracking-santa/](https://www.defense.gov/News/Feature-Stories/Story/Article/4361832/norad-celebrates-70-years-of-tracking-santa/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4360905/statement-by-chief-pentagon-spokesman-sean-parnell-on-the-restoring-honor-to-se/](https://www.defense.gov/News/Releases/Release/Article/4360905/statement-by-chief-pentagon-spokesman-sean-parnell-on-the-restoring-honor-to-se/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4361100/war-department-reevaluates-discharge-characterizations-for-covid-vaccine-refusal/](https://www.defense.gov/News/News-Stories/Article/Article/4361100/war-department-reevaluates-discharge-characterizations-for-covid-vaccine-refusal/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4361903/readout-of-december-2025-us-china-defense-policy-coordination-talks/](https://www.defense.gov/News/Releases/Release/Article/4361903/readout-of-december-2025-us-china-defense-policy-coordination-talks/)
+1. [http://open.defense.gov/](http://open.defense.gov/)
+1. [https://www.defense.gov/Multimedia/Experience/category/22642/](https://www.defense.gov/Multimedia/Experience/category/22642/)
+1. [https://business.defense.gov/](https://business.defense.gov/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4361239/us-holds-171st-repatriation-ceremony-in-vietnam/](https://www.defense.gov/News/News-Stories/Article/Article/4361239/us-holds-171st-repatriation-ceremony-in-vietnam/)
+1. [https://www.defense.gov/News/Feature-Stories/Story/Article/4361665/sustaining-expeditions-new-tech-keeps-warfighters-fed-in-arctic-conditions/](https://www.defense.gov/News/Feature-Stories/Story/Article/4361665/sustaining-expeditions-new-tech-keeps-warfighters-fed-in-arctic-conditions/)
+1. [http://dodcio.defense.gov/DoD-Web-Policy/](http://dodcio.defense.gov/DoD-Web-Policy/)
+1. [https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF](https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/](https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/)
+1. [http://prhome.defense.gov/NoFear/](http://prhome.defense.gov/NoFear/)
