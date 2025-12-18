@@ -1,0 +1,25 @@
+# Defense Sub-Pages
+
+## Below is a list of sub-pages found on [Defense](https://www.defense.gov):
+
+1. [https://www.defense.gov/News/Releases/Release/Article/4360905/statement-by-chief-pentagon-spokesman-sean-parnell-on-the-restoring-honor-to-se/](https://www.defense.gov/News/Releases/Release/Article/4360905/statement-by-chief-pentagon-spokesman-sean-parnell-on-the-restoring-honor-to-se/)
+1. [http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx](http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx)
+1. [http://dodcio.defense.gov/DoD-Web-Policy/](http://dodcio.defense.gov/DoD-Web-Policy/)
+1. [http://prhome.defense.gov/NoFear/](http://prhome.defense.gov/NoFear/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4344095/hegseth-pays-surprise-thanksgiving-day-visit-to-sailors-in-southcom-aor/](https://www.defense.gov/News/News-Stories/Article/Article/4344095/hegseth-pays-surprise-thanksgiving-day-visit-to-sailors-in-southcom-aor/)
+1. [https://comptroller.defense.gov/ODCFO/afr/](https://comptroller.defense.gov/ODCFO/afr/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4361100/war-department-reevaluates-discharge-characterizations-for-covid-vaccine-refusal/](https://www.defense.gov/News/News-Stories/Article/Article/4361100/war-department-reevaluates-discharge-characterizations-for-covid-vaccine-refusal/)
+1. [https://www.defense.gov/Multimedia/Experience/category/25144/](https://www.defense.gov/Multimedia/Experience/category/25144/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/](https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/)
+1. [https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF](https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4362390/scarlet-dragon-links-military-industry-to-test-artificial-intelligence-for-warf/](https://www.defense.gov/News/News-Stories/Article/Article/4362390/scarlet-dragon-links-military-industry-to-test-artificial-intelligence-for-warf/)
+1. [http://open.defense.gov/](http://open.defense.gov/)
+1. [https://www.defense.gov/News/Feature-Stories/Story/Article/4361665/sustaining-expeditions-new-tech-keeps-warfighters-fed-in-arctic-conditions/](https://www.defense.gov/News/Feature-Stories/Story/Article/4361665/sustaining-expeditions-new-tech-keeps-warfighters-fed-in-arctic-conditions/)
+1. [https://business.defense.gov/](https://business.defense.gov/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4363212/trump-hegseth-caine-nordhaus-honor-soldiers-interpreter-killed-in-syria/](https://www.defense.gov/News/News-Stories/Article/Article/4363212/trump-hegseth-caine-nordhaus-honor-soldiers-interpreter-killed-in-syria/)
+1. [https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/](https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4363226/hegseth-hosts-special-guests-during-pentagon-christmas-worship-service/](https://www.defense.gov/News/News-Stories/Article/Article/4363226/hegseth-hosts-special-guests-during-pentagon-christmas-worship-service/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4361903/readout-of-december-2025-us-china-defense-policy-coordination-talks/](https://www.defense.gov/News/Releases/Release/Article/4361903/readout-of-december-2025-us-china-defense-policy-coordination-talks/)
+1. [https://www.defense.gov/Multimedia/Experience/category/22642/](https://www.defense.gov/Multimedia/Experience/category/22642/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4362664/department-of-war-statement-on-the-rotorcraft-operations-transparency-and-overs/](https://www.defense.gov/News/Releases/Release/Article/4362664/department-of-war-statement-on-the-rotorcraft-operations-transparency-and-overs/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/](https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/)
