@@ -1,0 +1,27 @@
+# Defense Sub-Pages
+
+## Below is a list of sub-pages found on [Defense](https://www.defense.gov):
+
+1. [http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx](http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4364049/joint-interagency-task-force-integrates-skills-creates-layered-counter-drone-de/](https://www.defense.gov/News/News-Stories/Article/Article/4364049/joint-interagency-task-force-integrates-skills-creates-layered-counter-drone-de/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4364876/dla-troop-support-subsistence-keeps-morale-alive-with-holiday-meals/](https://www.defense.gov/News/News-Stories/Article/Article/4364876/dla-troop-support-subsistence-keeps-morale-alive-with-holiday-meals/)
+1. [http://open.defense.gov/](http://open.defense.gov/)
+1. [https://www.defense.gov/Multimedia/Experience/category/22642/](https://www.defense.gov/Multimedia/Experience/category/22642/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/](https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/)
+1. [http://prhome.defense.gov/NoFear/](http://prhome.defense.gov/NoFear/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4365560/secretary-of-war-general-officer-announcements-for-december-19-2025/](https://www.defense.gov/News/Releases/Release/Article/4365560/secretary-of-war-general-officer-announcements-for-december-19-2025/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4363670/interagency-senior-leaders-discuss-tactics-on-advancing-counter-uas-efforts/](https://www.defense.gov/News/News-Stories/Article/Article/4363670/interagency-senior-leaders-discuss-tactics-on-advancing-counter-uas-efforts/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4365527/this-week-in-dow-border-defense-medal-warrior-dividend-reforming-chaplain-corps/](https://www.defense.gov/News/News-Stories/Article/Article/4365527/this-week-in-dow-border-defense-medal-warrior-dividend-reforming-chaplain-corps/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/](https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4364000/general-officer-announcements/](https://www.defense.gov/News/Releases/Release/Article/4364000/general-officer-announcements/)
+1. [https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/](https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4363528/just-in-time-for-christmas-nation-gifts-service-members-1776-warrior-dividend/](https://www.defense.gov/News/News-Stories/Article/Article/4363528/just-in-time-for-christmas-nation-gifts-service-members-1776-warrior-dividend/)
+1. [https://comptroller.defense.gov/ODCFO/afr/](https://comptroller.defense.gov/ODCFO/afr/)
+1. [http://dodcio.defense.gov/DoD-Web-Policy/](http://dodcio.defense.gov/DoD-Web-Policy/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4364310/hegseth-senior-leaders-honor-militarys-top-recruiters/](https://www.defense.gov/News/News-Stories/Article/Article/4364310/hegseth-senior-leaders-honor-militarys-top-recruiters/)
+1. [https://www.defense.gov/Multimedia/Experience/category/25144/](https://www.defense.gov/Multimedia/Experience/category/25144/)
+1. [https://business.defense.gov/](https://business.defense.gov/)
+1. [https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF](https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4364849/marine-corps-announces-updated-physical-fitness-standards/](https://www.defense.gov/News/News-Stories/Article/Article/4364849/marine-corps-announces-updated-physical-fitness-standards/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4364002/flag-officer-announcements/](https://www.defense.gov/News/Releases/Release/Article/4364002/flag-officer-announcements/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4365646/war-department-ensures-valuable-wage-grade-employees-earn-prevailing-wages/](https://www.defense.gov/News/News-Stories/Article/Article/4365646/war-department-ensures-valuable-wage-grade-employees-earn-prevailing-wages/)
