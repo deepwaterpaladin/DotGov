@@ -1,0 +1,28 @@
+# Defense Sub-Pages
+
+## Below is a list of sub-pages found on [Defense](https://www.defense.gov):
+
+1. [https://business.defense.gov/](https://business.defense.gov/)
+1. [https://www.defense.gov/News/Feature-Stories/Story/Article/4273016/face-of-defense-sailor-unlocks-full-potential-trains-future-generations/](https://www.defense.gov/News/Feature-Stories/Story/Article/4273016/face-of-defense-sailor-unlocks-full-potential-trains-future-generations/)
+1. [http://dodcio.defense.gov/DoD-Web-Policy/](http://dodcio.defense.gov/DoD-Web-Policy/)
+1. [https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/](https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/](https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/](https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/)
+1. [http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx](http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx)
+1. [http://prhome.defense.gov/NoFear/](http://prhome.defense.gov/NoFear/)
+1. [http://open.defense.gov/](http://open.defense.gov/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4370027/449th-aeg-airmen-test-readiness-during-exercise-pale-serpent/](https://www.defense.gov/News/News-Stories/Article/Article/4370027/449th-aeg-airmen-test-readiness-during-exercise-pale-serpent/)
+1. [https://www.defense.gov/Multimedia/Experience/category/22642/](https://www.defense.gov/Multimedia/Experience/category/22642/)
+1. [https://www.war.gov/spotlights/face-of-defense/](https://www.war.gov/spotlights/face-of-defense/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/](https://www.defense.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/)
+1. [https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF](https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF)
+1. [https://www.defense.gov/News/Feature-Stories/Story/Article/4366315/face-of-defense-marine-on-faith-family-and-the-silent-drill-platoon/](https://www.defense.gov/News/Feature-Stories/Story/Article/4366315/face-of-defense-marine-on-faith-family-and-the-silent-drill-platoon/)
+1. [https://www.army.mil/article/289761/autonomy_in_action_advancing_cbrn_defense_capabilities_with_unmanned_systems](https://www.army.mil/article/289761/autonomy_in_action_advancing_cbrn_defense_capabilities_with_unmanned_systems)
+1. [https://comptroller.defense.gov/ODCFO/afr/](https://comptroller.defense.gov/ODCFO/afr/)
+1. [https://www.defense.gov/News/Advisories/Advisory/Article/4369201/pentagon-press-operations-ppo-operational-schedule-for-wednesday-december-31st/](https://www.defense.gov/News/Advisories/Advisory/Article/4369201/pentagon-press-operations-ppo-operational-schedule-for-wednesday-december-31st/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4367608/department-of-war-invests-327m-to-accelerate-solid-rocket-motor-component-produ/](https://www.defense.gov/News/Releases/Release/Article/4367608/department-of-war-invests-327m-to-accelerate-solid-rocket-motor-component-produ/)
+1. [https://www.defense.gov/Multimedia/Experience/category/25144/](https://www.defense.gov/Multimedia/Experience/category/25144/)
+1. [https://www.defense.gov/News/Feature-Stories/Story/Article/4285464/face-of-defense-soldier-walks-unique-path-continues-family-legacy-of-service/](https://www.defense.gov/News/Feature-Stories/Story/Article/4285464/face-of-defense-soldier-walks-unique-path-continues-family-legacy-of-service/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4364049/joint-interagency-task-force-integrates-skills-creates-layered-counter-drone-de/](https://www.defense.gov/News/News-Stories/Article/Article/4364049/joint-interagency-task-force-integrates-skills-creates-layered-counter-drone-de/)
+1. [https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF](https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4369456/marine-corps-launches-new-drone-training-program/](https://www.defense.gov/News/News-Stories/Article/Article/4369456/marine-corps-launches-new-drone-training-program/)
