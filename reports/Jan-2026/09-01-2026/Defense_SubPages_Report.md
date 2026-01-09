@@ -1,0 +1,26 @@
+# Defense Sub-Pages
+
+## Below is a list of sub-pages found on [Defense](https://www.defense.gov):
+
+1. [https://www.defense.gov/News/Advisories/Advisory/Article/4372372/secretary-of-war-pete-hegseth-to-travel-to-los-angeles-california/](https://www.defense.gov/News/Advisories/Advisory/Article/4372372/secretary-of-war-pete-hegseth-to-travel-to-los-angeles-california/)
+1. [https://www.defense.gov/Multimedia/Experience/category/25144/](https://www.defense.gov/Multimedia/Experience/category/25144/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4369456/marine-corps-launches-new-drone-training-program/](https://www.defense.gov/News/News-Stories/Article/Article/4369456/marine-corps-launches-new-drone-training-program/)
+1. [http://open.defense.gov/](http://open.defense.gov/)
+1. [http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx](http://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4371160/hegseth-launches-multistate-tour-in-support-of-defense-industrial-base/](https://www.defense.gov/News/News-Stories/Article/Article/4371160/hegseth-launches-multistate-tour-in-support-of-defense-industrial-base/)
+1. [http://dodcio.defense.gov/DoD-Web-Policy/](http://dodcio.defense.gov/DoD-Web-Policy/)
+1. [https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/](https://policy.defense.gov/OUSDP-Offices/Reporting-Civilian-Casualties/)
+1. [https://www.defense.gov/News/Releases/Release/Article/4373247/the-war-department-strengthens-measures-to-protect-dowfunded-research/](https://www.defense.gov/News/Releases/Release/Article/4373247/the-war-department-strengthens-measures-to-protect-dowfunded-research/)
+1. [https://www.defense.gov/Multimedia/Experience/category/22642/](https://www.defense.gov/Multimedia/Experience/category/22642/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4372265/air-force-f-35as-deliver-deterrence-at-altitude/](https://www.defense.gov/News/News-Stories/Article/Article/4372265/air-force-f-35as-deliver-deterrence-at-altitude/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/](https://www.defense.gov/News/News-Stories/Article/Article/4360811/trump-awards-soldiers-marines-border-defense-medal/)
+1. [https://comptroller.defense.gov/ODCFO/afr/](https://comptroller.defense.gov/ODCFO/afr/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/](https://www.defense.gov/News/News-Stories/Article/Article/4334667/uss-wichita-takes-over-southern-border-mission-from-uss-st-louis/)
+1. [http://prhome.defense.gov/NoFear/](http://prhome.defense.gov/NoFear/)
+1. [https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF](https://media.defense.gov/2023/Mar/13/2003178168/-1/-1/1/DOD-STRATEGIC-MGMT-PLAN-2023.PDF)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4373162/war-department-celebrates-20-years-of-starbase-arizona/](https://www.defense.gov/News/News-Stories/Article/Article/4373162/war-department-celebrates-20-years-of-starbase-arizona/)
+1. [https://www.defense.gov/News/Advisories/Advisory/Article/4373986/secretary-of-war-pete-hegseth-livestreams-event-in-los-angeles-california/](https://www.defense.gov/News/Advisories/Advisory/Article/4373986/secretary-of-war-pete-hegseth-livestreams-event-in-los-angeles-california/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4374025/hegseth-swears-in-40-west-coast-recruits-into-military/](https://www.defense.gov/News/News-Stories/Article/Article/4374025/hegseth-swears-in-40-west-coast-recruits-into-military/)
+1. [https://business.defense.gov/](https://business.defense.gov/)
+1. [https://www.defense.gov/News/Feature-Stories/Story/Article/4372346/ncis-forensic-consultants-crack-toughest-cases-with-advanced-technology-creativ/](https://www.defense.gov/News/Feature-Stories/Story/Article/4372346/ncis-forensic-consultants-crack-toughest-cases-with-advanced-technology-creativ/)
+1. [https://www.defense.gov/News/News-Stories/Article/Article/4373412/joint-task-force-southern-guard-hosts-corporals-course/](https://www.defense.gov/News/News-Stories/Article/Article/4373412/joint-task-force-southern-guard-hosts-corporals-course/)
